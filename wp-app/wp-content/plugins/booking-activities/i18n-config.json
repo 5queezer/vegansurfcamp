@@ -1,0 +1,141 @@
+{ "vendor": { "plugins/booking-activities": "1.7.0" },
+	"admin-config":{
+		"bookacti_calendars":{
+			"pages":{ "admin.php":"" },
+			"anchors":{ "bookacti-settings-lang-switcher": { "where": "first" },
+						"bookacti-notification-global-settings": { "where": "after" }, 
+						"bookacti-notification-email-settings": { "where": "after" }, 
+						"bookacti-activity-dialog-lang-switcher": { "where": "first" }, 
+						"bookacti-event-dialog-lang-switcher": { "where": "first" }, 
+						"bookacti-group-of-events-dialog-lang-switcher": { "where": "first" },
+						"bookacti-group-category-dialog-lang-switcher": { "where": "first" },
+						"bookacti-form-editor-page-lang-switcher": { "where": "first" },
+						"bookacti-form-meta-dialog-lang-switcher": { "where": "first" },
+						"bookacti-form-field-dialog-login-lang-switcher": { "where": "first" },
+						"bookacti-form-field-dialog-quantity-lang-switcher": { "where": "first" },
+						"bookacti-form-field-dialog-submit-lang-switcher": { "where": "first" },
+						"bookacti-form-field-dialog-free_text-lang-switcher": { "where": "first" },
+						"bookacti-form-field-dialog-terms-lang-switcher": { "where": "first" }
+			},
+			"forms":{
+				"bookacti-settings":{
+					"fields":{
+						"bookacti-settings-date-format-short":{},
+						"bookacti-settings-date-format-long":{},
+						"bookacti-settings-time-format":{},
+						"bookacti_notification_customer_pending_booking_email_subject":{},
+						"bookacti_notification_customer_pending_booking_email_message":{},
+						"bookacti_notification_customer_booked_booking_email_subject":{},
+						"bookacti_notification_customer_booked_booking_email_message":{},
+						"bookacti_notification_customer_cancelled_booking_email_subject":{},
+						"bookacti_notification_customer_cancelled_booking_email_message":{},
+						"bookacti_notification_customer_rescheduled_booking_email_subject":{},
+						"bookacti_notification_customer_rescheduled_booking_email_message":{},
+						"bookacti_notification_customer_refunded_booking_email_subject":{},
+						"bookacti_notification_customer_refunded_booking_email_message":{},
+						"bookacti_messages_settings_date_format_short":{},
+						"bookacti_messages_settings_date_format_long":{},
+						"bookacti_messages_settings_time_format":{},
+						"bookacti_messages_settings_dates_separator":{},
+						"bookacti_messages_settings_date_time_separator":{},
+						"bookacti_messages_settings_quantity_separator":{},
+						"bookacti_messages_settings_calendar_title":{},
+						"bookacti_messages_settings_booking_success":{},
+						"bookacti_messages_settings_booking_form_submit_button":{},
+						"bookacti_messages_settings_booking_form_new_booking_button":{},
+						"bookacti_messages_settings_choose_group_dialog_title":{},
+						"bookacti_messages_settings_choose_group_dialog_content":{},
+						"bookacti_messages_settings_cancel_booking_open_dialog_button":{},
+						"bookacti_messages_settings_cancel_booking_dialog_button":{},
+						"bookacti_messages_settings_cancel_dialog_title":{},
+						"bookacti_messages_settings_cancel_dialog_content":{},
+						"bookacti_messages_settings_reschedule_dialog_button":{},
+						"bookacti_messages_settings_reschedule_dialog_title":{},
+						"bookacti_messages_settings_refund_dialog_button":{},
+						"bookacti_messages_settings_refund_dialog_title":{},
+						"bookacti_messages_settings_temporary_booking_success":{},
+						"bookacti_messages_settings_cart_countdown":{}
+					}
+				},
+				"bookacti-activity-data-form":{
+					"fields":{
+						"bookacti-activity-title":{},
+						"bookacti-activity-unit-name-singular":{},
+						"bookacti-activity-unit-name-plural":{}
+					}
+				},
+				"bookacti-event-data-form":{
+					"fields":{
+						"bookacti-event-title":{}
+					}
+				},
+				"bookacti-group-of-events-form":{
+					"fields":{
+						"bookacti-group-of-events-title-field":{},
+						"bookacti-group-of-events-category-title-field":{}
+					}
+				},
+				"bookacti-group-category-form":{
+					"fields":{
+						"bookacti-group-category-title-field":{}
+					}
+				},
+				"bookacti-form-editor-page-form":{
+					"fields":{
+						"title":{}
+					}
+				},
+				"bookacti-form-field-form-login":{
+					"fields":{
+						"bookacti-email-label":{},
+						"bookacti-email-placeholder":{},
+						"bookacti-email-tip":{},
+						"bookacti-password-label":{},
+						"bookacti-password-placeholder":{},
+						"bookacti-password-tip":{},
+						"bookacti-forgotten_password-label":{},
+						"bookacti-forgotten_password-tip":{},
+						"bookacti-label-my_account":{},
+						"bookacti-tip-my_account":{},
+						"bookacti-label-new_account":{},
+						"bookacti-tip-new_account":{},
+						"bookacti-label-no_account":{},
+						"bookacti-tip-no_account":{},
+						"bookacti-label-first_name":{},
+						"bookacti-placeholder-first_name":{},
+						"bookacti-tip-first_name":{},
+						"bookacti-label-last_name":{},
+						"bookacti-placeholder-last_name":{},
+						"bookacti-tip-last_name":{},
+						"bookacti-label-phone":{},
+						"bookacti-placeholder-phone":{},
+						"bookacti-tip-phone":{}
+					}
+				},
+				"bookacti-form-field-form-quantity":{
+					"fields":{
+						"bookacti-quantity-label":{},
+						"bookacti-quantity-placeholder":{},
+						"bookacti-quantity-tip":{}
+					}
+				},
+				"bookacti-form-field-form-submit":{
+					"fields":{
+						"bookacti-submit-value":{}
+					}
+				},
+				"bookacti-form-field-form-free_text":{
+					"fields":{
+						"bookacti-free_text-title":{},
+						"bookacti-free_text-value":{}
+					}
+				},
+				"bookacti-form-field-form-terms":{
+					"fields":{
+						"bookacti-terms-label":{}
+					}
+				}
+			}
+		}
+	}
+}
